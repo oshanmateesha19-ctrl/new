@@ -43,7 +43,7 @@ BACKUP_CHANNEL = -1004429992140
 COPY_TARGET = -1004323650127   # channel ID එකක් හැම වෙලේම -100 වලින් පටන් ගන්නවා
 
 # මේකට වැඩි file එකක් download වෙද්දීම cancel කරලා skip කරනවා
-MAX_SIZE_MB = 600
+MAX_SIZE_MB = 450
 MAX_SIZE_BYTES = MAX_SIZE_MB * 1024 * 1024
 
 
