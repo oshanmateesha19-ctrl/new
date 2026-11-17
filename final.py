@@ -966,7 +966,7 @@ async def announce_online():
             print(f"❌ {name} ({cid}) access නැහැ: {e}")
             continue
         if name == "SOURCE":
-            print(f"✅ {name}: {chat.title}")  # source channel එකට message යවන්නේ නැහැ
+            print(f"✅hi {name}: {chat.title}")  # source channel එකට message යවන්නේ නැහැ
             continue
         try:
             await bot_app.send_message(cid, "✅ Hi! Bot connected & online 🚀")
